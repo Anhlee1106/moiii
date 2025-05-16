@@ -1,0 +1,177 @@
+/**//**/@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+.mountains-of-christmas-regular {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 500;
+  font-style: normal;
+}                
+h1, h2, h3, h4 {
+font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'serif;	
+}
+h1{
+	color: black
+}
+h2{
+	color: white
+}
+h4{
+	font-size: 50px; color: white
+}
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-size: 16px;color: #FFFFFF ;margin: 0
+}
+header{
+	width: 100%;height: 60px; background-color: #B56C00; border-bottom: 1px solid darkred; 
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none;display: flex
+}
+.menu{
+	padding-top: 18px
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none; font-size: 17px; text-transform: uppercase; color: #FFFFFF ; border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkred;color: white
+}
+/*phan carousel*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:70px; background:rgba(255,255,255,.5);border:1px solid #fff;  color: #FFFFFF
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+main{
+	width: 100%; min-height: 500px
+}
+.gach-chan{
+	border-bottom: 3px solid darkred
+}
+.vien{
+	width: 100%; min-height: 200px; border: 1px solid darkred; padding: 10px
+}
+.text-do{
+	color: darkred
+}
+.hinh{
+	width: 100%; position: relative; overflow: hidden
+}
+.icon-group {
+  display: flex;
+  flex-direction: row; 
+  gap: 10px; 
+  position: absolute; 
+  bottom: 20px; 
+  left: 20px;
+}
+
+.icon-group {
+  text-decoration: none;
+}
+
+.icon-group a{
+	width: 40px;
+	height: 40px;
+	background-color: #B56C00;
+	color: white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+	text-decoration: none
+}
+.icon-group a:hover{
+	background-color: #cccccc; color: #B56C00	
+}
+.hinh:hover .icon{
+	top: 40%
+}
+#festure{
+	width: 400%; min-height: 900px; background-image: url("../images/Premium Photo _ Shuttlecocks and on black background_sport concept, concept winner, copy space image for your text _ Space images, Shuttlecocks, Iphone background wallpaper.jpg"); background-repeat: no-repeat; background-size: cover; background-position: bottom center
+}
+.vien-trang{
+	width: 100%; min-height: 120px; border: 1px solid white; text-align: center; padding: 30px; margin-top: 20px
+}
+#festure{
+	text-decoration: none; color: darkred
+}
+#festure a:hover{
+	color: white
+}
+#contact{
+	width: 100%; min-height: 900px ; background-image: url( "../images/pexels-dongjie-chen-3088975-7235235.jpg" ); background-repeat: no-repeat; background-size: cover; background-position: center center
+}
+.shadow{
+	width: 100%; min-height: 300px; border: 1px solid gray ; box-shadow: 5px 5px 5px black ; padding: 30px
+}
+.from-control {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+footer {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding-top: 30px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+  margin-bottom: 30px;
+  letter-spacing: 1px; /* khoảng cách chữ */
+  line-height: 1.9;       /* khoảng cách dòng */
+}
+
+.footer-column h3 {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-column p {
+  font-size: 14px;
+}
+
+.footer-bottom {
+  background-color: #B56C00;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  line-height: 1.9;
+  letter-spacing: 0.7px;
+}
